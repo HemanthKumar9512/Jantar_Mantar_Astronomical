@@ -1,0 +1,86 @@
+import '../models/instrument.dart';
+
+List<IndianCity> indianCities = [
+  IndianCity(
+    name: "Jaipur",
+    latitude: 26.9124,
+    longitude: 75.7873,
+    state: "Rajasthan",
+    culturalSignificance: "Home to the most complete Jantar Mantar observatory",
+    historicalImportance: "Highest",
+  ),
+  IndianCity(
+    name: "Delhi",
+    latitude: 28.6139,
+    longitude: 77.2090,
+    state: "Delhi",
+    culturalSignificance: "First Jantar Mantar built by Maharaja Jai Singh II",
+    historicalImportance: "Very High",
+  ),
+  IndianCity(
+    name: "Ujjain",
+    latitude: 23.1765,
+    longitude: 75.7885,
+    state: "Madhya Pradesh",
+    culturalSignificance: "Ancient center of Indian astronomy and mathematics",
+    historicalImportance: "Highest",
+  ),
+  IndianCity(
+    name: "Varanasi",
+    latitude: 25.3176,
+    longitude: 82.9739,
+    state: "Uttar Pradesh",
+    culturalSignificance:
+        "One of the world's oldest continually inhabited cities",
+    historicalImportance: "Very High",
+  ),
+  IndianCity(
+    name: "Mumbai",
+    latitude: 19.0760,
+    longitude: 72.8777,
+    state: "Maharashtra",
+    culturalSignificance: "Financial capital with rich colonial history",
+    historicalImportance: "High",
+  ),
+  IndianCity(
+    name: "Kolkata",
+    latitude: 22.5726,
+    longitude: 88.3639,
+    state: "West Bengal",
+    culturalSignificance:
+        "Cultural capital of India with British colonial heritage",
+    historicalImportance: "High",
+  ),
+  IndianCity(
+    name: "Chennai",
+    latitude: 13.0827,
+    longitude: 80.2707,
+    state: "Tamil Nadu",
+    culturalSignificance: "Center of Dravidian culture and architecture",
+    historicalImportance: "High",
+  ),
+  IndianCity(
+    name: "Bengaluru",
+    latitude: 12.9716,
+    longitude: 77.5946,
+    state: "Karnataka",
+    culturalSignificance: "IT hub with modern and traditional blend",
+    historicalImportance: "Medium",
+  ),
+  IndianCity(
+    name: "Hyderabad",
+    latitude: 17.3850,
+    longitude: 78.4867,
+    state: "Telangana",
+    culturalSignificance: "City of pearls and IT hub with Nizami heritage",
+    historicalImportance: "High",
+  ),
+  IndianCity(
+    name: "Pune",
+    latitude: 18.5204,
+    longitude: 73.8567,
+    state: "Maharashtra",
+    culturalSignificance: "Cultural capital of Maharashtra",
+    historicalImportance: "Medium",
+  ),
+];
